@@ -19,6 +19,12 @@ const Home = () => {
     const filterHandler = (selected) => {
       setFilter(selected);
     };
+
+    const enterKeyHandler = (event) => {
+      if (event.keyCode === 13) {
+        searchHandler();
+      }
+    };
   
     let searchHandler = () => {
       const spoonacularApiKey = process.env.REACT_APP_SPOONACULAR_API_KEY;
@@ -39,7 +45,7 @@ const Home = () => {
     };
   return (
     <div>
-      <Search input={input} setInput={setInput} searchHandler={searchHandler}></Search>
+      <Search input={input} setInput={setInput} searchHandler={searchHandler} enterKeyHandler={enterKeyHandler}></Search>
       <Filter
         filter={filter}
         setFilter={setFilter}

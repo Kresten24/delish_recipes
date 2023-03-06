@@ -10,6 +10,7 @@ const Search = (props) => {
           onChange={(e) => props.setInput(e.target.value)}
           className="search-input"
           placeholder="Seach Recipe"
+          onKeyDown={props.enterKeyHandler}
         />
         <button className="search-button" onClick={props.searchHandler}>
           Search
