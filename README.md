@@ -1,4 +1,4 @@
-# To run the project
+# To run the project <br />
 
- npm install
+ npm install <br />
  npm start
