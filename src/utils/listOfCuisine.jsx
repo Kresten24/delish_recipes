@@ -1,0 +1,30 @@
+const options = [
+    { value: "African", label: "African" },
+    { value: "American", label: "American" },
+    { value: "British", label: "British" },
+    { value: "Cajun", label: "Cajun" },
+    { value: "Caribbean", label: "Caribbean" },
+    { value: "Chinese", label: "Chinese" },
+    { value: "EasternEuropean", label: "Eastern European" },
+    { value: "European", label: "European" },
+    { value: "French", label: "French" },
+    { value: "German", label: "German" },
+    { value: "Greek", label: "Greek" },
+    { value: "Indian", label: "Indian" },
+    { value: "Irish", label: "Irish" },
+    { value: "Italian", label: "Italian" },
+    { value: "Jewish", label: "Jewish" },
+    { value: "Japanese", label: "Japanese" },
+    { value: "Korean", label: "Korean" },
+    { value: "LatinAmerican", label: "Latin American" },
+    { value: "Mediterranean", label: "Mediterranean" },
+    { value: "Mexican", label: "Mexican" },
+    { value: "MiddleEastern", label: "Middle Eastern" },
+    { value: "Nordic", label: "Nordic" },
+    { value: "Southern", label: "Southern" },
+    { value: "Spanish", label: "Spanish" },
+    { value: "Thai", label: "Italian" },
+    { value: "Vietnamese", label: "Vietnamese" }
+  ];
+  
+  export default options

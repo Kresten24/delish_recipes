@@ -1,0 +1,16 @@
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+
+.select{
+    flex: 1;
+    width: 40%;
+}
+
+div.select-panel ul.options{
+    display: block;
+}
