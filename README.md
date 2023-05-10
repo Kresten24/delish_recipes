@@ -6,5 +6,6 @@
  
  in the .env file add REACT_APP_SPOONACULAR_API_KEY=*your API KEY* <br />
 
+ in the terminal run <br />
  npm install <br />
  npm start
